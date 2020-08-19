@@ -1,0 +1,111 @@
+/* Footer */
+
+// .footer {
+//   background-color: #2f303a;
+
+//   & > .container {
+//     display: flex;
+//     align-items: baseline;
+//     padding-top: 60px;
+//     padding-bottom: 60px;
+//   }
+
+//   .logo {
+//     margin-bottom: 20px;
+//     color: #ffffff;
+//   }
+// }
+
+// .address-wrapper {
+//   margin-right: 69px;
+// }
+
+// .footer-address-list-item:not(:last-child) {
+//   margin-bottom: 9px;
+// }
+
+// .footer-address-link,
+// .footer-contacts-link {
+//   font-weight: 400;
+//   line-height: 1.71;
+// }
+
+// .footer-address-link {
+//   color: $dark-theme-text-color;
+// }
+
+// .footer-contacts-link {
+//   color: rgba(255, 255, 255, 0.6);
+// }
+
+// .social-links-wrapper {
+//   margin-right: 94px;
+// }
+
+// .footer-subtitle {
+//   display: block;
+//   margin-bottom: 20px;
+//   color: $dark-theme-text-color;
+
+//   font-weight: 700;
+//   text-transform: uppercase;
+// }
+
+// .social-link {
+//   background-color: rgba(255, 255, 255, 0.1);
+// }
+
+// /* footer-form */
+
+// .footer-form-input {
+//   padding-top: 15px;
+//   padding-right: 16px;
+//   padding-bottom: 15px;
+//   padding-left: 16px;
+//   margin-right: 8px;
+
+//   width: 358px;
+
+//   border: 1px solid rgba(255, 255, 255, 0.3);
+//   border-radius: 4px;
+//   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+
+//   font-weight: 400;
+//   font-size: 16px;
+//   line-height: 1.25;
+//   letter-spacing: 0.03em;
+
+//   color: rgba(255, 255, 255, 0.6);
+//   background-color: inherit;
+
+//   &:focus:valid:not(:placeholder-shown) {
+//     border: 1px solid green;
+//   }
+
+//   &:focus:invalid:not(:placeholder-shown) {
+//     border: 1px solid red;
+//   }
+// }
+
+// .footer-form-button {
+//   display: inline-flex;
+//   align-items: center;
+
+//   padding-top: 10px;
+//   padding-right: 28px;
+//   padding-bottom: 10px;
+//   padding-left: 28px;
+
+//   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+//   &:hover,
+//   &:focus {
+//     background-color: $secondary-accent-color;
+//   }
+// }
+
+// .footer-form-svg {
+//   margin-left: 10px;
+//   width: 24px;
+//   height: 24px;
+// }

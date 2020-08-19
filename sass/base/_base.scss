@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: $primary-bg-color;
+  color: $primary-text-color;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.address {
+  font-style: normal;
+}
+
+.link {
+  text-decoration: none;
+  // display: block;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.desc {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.title {
+  margin-top: 0;
+}
+
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+:focus {
+  outline: none;
+}
