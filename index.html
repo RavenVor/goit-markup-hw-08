@@ -19,7 +19,13 @@
           Studio
         </a>
 
-        <button class="header-button" type="button">
+        <button
+          class="header-button"
+          type="button"
+          aria-expanded="false"
+          aria-controls="menu-wrapper"
+          data-menu-button
+        >
           <svg
             width="40"
             height="40"
@@ -30,7 +36,7 @@
           </svg>
         </button>
 
-        <div class="menu-container">
+        <div class="menu-wrapper" data-menu>
           <nav class="header-navigation">
             <ul class="navigation-list list">
               <li class="navigation-list-item">
@@ -90,7 +96,7 @@
         <button class="hero-btn button" data-modal-open>Заказать услугу</button>
       </section>
       <!-- особливості -->
-      <section class="features section">
+      <!-- <section class="features section">
         <div class="container">
           <h2 hidden>Наши особенности</h2>
           <ul class="features-list list">
@@ -144,10 +150,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- Чим займаємся -->
-      <section class="occupation section">
+      <!-- <section class="occupation section">
         <div class="container">
           <h2 class="section-title title">Чем мы занимаемся</h2>
           <ul class="occupation-list list">
@@ -185,10 +191,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- Команда -->
-      <section class="our-team section">
+      <!-- <section class="our-team section">
         <div class="container">
           <h2 class="section-title title">Наша-команда</h2>
           <ul class="our-team-list list">
@@ -416,10 +422,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- Постійні клієнти -->
-      <section class="clients section">
+      <!-- <section class="clients section">
         <div class="container">
           <h2 class="section-title title">Постоянные клиенты</h2>
           <ul class="clients-list list">
@@ -491,11 +497,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
 
     <!-- Підвал -->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container">
         <div class="address-wrapper">
           <a class="logo link" href="./index.html" lang="en">
@@ -581,9 +587,9 @@
           </div>
         </form>
       </div>
-    </footer>
+    </footer> -->
 
-    <div class="backdrop is-hidden" data-modal>
+    <!-- <div class="backdrop is-hidden" data-modal>
       <form class="modal-form" action="#" autocomplete="off">
         <button class="modal-form-close-button" type="button" data-modal-close>
           <svg class="close-button-svg">
@@ -666,8 +672,9 @@
 
         <button class="submit-button button" type="submit">Отправить</button>
       </form>
-    </div>
+    </div> -->
 
+    <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
