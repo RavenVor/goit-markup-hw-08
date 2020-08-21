@@ -462,6 +462,7 @@ body {
 
 .social-links-list {
   display: flex;
+  justify-content: center;
 }
 
 .social-links-list-item:not(:last-child) {
@@ -759,7 +760,7 @@ body {
 
 @media screen and (min-width: 480px) {
   .features-list-item {
-    width: 450px;
+    width: 100%;
   }
 }
 
@@ -838,6 +839,85 @@ body {
 }
 
 /* team */
+.our-team {
+  background-color: #f5f4fa;
+}
+
+.our-team .social-links-list {
+  margin-bottom: 24px;
+}
+
+.our-team-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.our-team-list-item {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 0px 0px 4px 4px;
+}
+
+@media screen and (max-width: 767px) {
+  .our-team-list-item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .our-team-list-item {
+    width: calc((100% - 30px) / 2);
+  }
+  .our-team-list-item:not(:nth-child(2n)) {
+    margin-right: 30px;
+  }
+  .our-team-list-item:not(:nth-last-child(-n + 2)) {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .our-team-list-item {
+    width: calc((100% - 90px) / 4);
+  }
+  .our-team-list-item:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.our-team-list-item .avatar {
+  margin-bottom: 30px;
+}
+
+.teammate-name,
+.teammate-profession {
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.teammate-name {
+  margin-bottom: 10px;
+}
+
+.teammate-profession {
+  margin-bottom: 16px;
+  color: #757575;
+  font-weight: 400;
+}
+
+.social-link-svg {
+  fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-link:hover .social-link-svg,
+.social-link:focus .social-link-svg {
+  fill: #ffffff;
+}
+
 /* Clients */
 /* PORTFOLIO */
 /* Footer */
