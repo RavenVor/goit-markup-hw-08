@@ -102,7 +102,9 @@
     }
 
     &:hover .button-menu,
-    &:focus .button-menu {
+    &:focus .button-menu,
+    &.is-open:hover .button-cross,
+    &.is-open:focus .button-cross {
       fill: $accent-color;
     }
   }
