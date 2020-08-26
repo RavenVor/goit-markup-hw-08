@@ -513,7 +513,7 @@ body {
 
 @media screen and (max-width: 480px) {
   .backdrop {
-    padding-top: 93px;
+    padding-top: 90px;
     padding-right: 15px;
     padding-left: 15px;
   }
@@ -696,6 +696,7 @@ body {
 .modal-form-custom-checkbox {
   display: inline-block;
   align-items: center;
+  flex-shrink: 0;
   width: 16px;
   height: 16px;
   margin-right: 8px;
@@ -721,6 +722,12 @@ body {
 
 .modal-form-option-span a {
   color: #2196f3;
+}
+
+@media screen and (max-width: 479px) {
+  .modal-form-option-span {
+    font-size: 10px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -950,6 +957,12 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+@media screen and (max-width: 425px) {
+  .hero-title {
+    font-size: 25px;
+  }
 }
 
 .hero-btn {
@@ -1381,6 +1394,12 @@ body {
 .portfolio-cards-list-link:hover .portfolio-cards-hover-desc,
 .portfolio-cards-list-link:focus .portfolio-cards-hover-desc {
   transform: translateY(0);
+}
+
+@media screen and (max-width: 374px) {
+  .portfolio-cards-hover-desc {
+    font-size: 14px;
+  }
 }
 
 .cards-description-wrapper {

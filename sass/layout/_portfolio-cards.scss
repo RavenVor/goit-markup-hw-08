@@ -78,6 +78,10 @@
   .portfolio-cards-list-link:focus & {
     transform: translateY(0);
   }
+
+  @media screen and (max-width: 374px) {
+    font-size: 14px;
+  }
 }
 
 .cards-description-wrapper {

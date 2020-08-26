@@ -17,7 +17,7 @@
   overflow-y: scroll;
 
   @media screen and (max-width: 480px) {
-    padding-top: 93px;
+    padding-top: 90px;
     padding-right: 15px;
     padding-left: 15px;
   }
@@ -219,6 +219,7 @@
 .modal-form-custom-checkbox {
   display: inline-block;
   align-items: center;
+  flex-shrink: 0;
   width: 16px;
   height: 16px;
   margin-right: 8px;
@@ -244,6 +245,10 @@
 
   a {
     color: $accent-color;
+  }
+
+  @media screen and (max-width: 479px) {
+    font-size: 10px;
   }
 
   @media screen and (min-width: 1200px) {
